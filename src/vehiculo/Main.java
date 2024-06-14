@@ -2,8 +2,8 @@
 package vehiculo;
 
 /**
- *
- * @author 
+ *Clase principal gestiona la operacion de vehiculos
+ * @author Viviana
  */
 public class Main {
     
@@ -15,6 +15,11 @@ public class Main {
         operativaVehiculosVS14Junio24(miVehiculoVS14Junio24, 50); 
     }
 
+      /**
+       * Realiza compra y venta de vehiculos
+       * @param miVehiculoVS14Junio24 vehiculo que se vendera o comprara
+       * @param cantidad cantidad de productos a comprar o vender
+       */
     private static void operativaVehiculosVS14Junio24(VS14Junio24 miVehiculoVS14Junio24, int cantidad) {
         int stockActual;
         try
